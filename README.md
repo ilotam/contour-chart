@@ -16,3 +16,8 @@ The input dataset has 2 numeric variables: x and y., and you wull need a group c
 
 
 ![image](https://user-images.githubusercontent.com/47331711/109520364-73c22900-7aac-11eb-91b0-e5a3819989d3.png)
+
+# Logo
+
+![contour_logo](https://user-images.githubusercontent.com/47331711/111795860-e104f500-88c7-11eb-902b-133409fdb543.png)
+
