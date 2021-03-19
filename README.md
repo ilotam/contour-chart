@@ -12,7 +12,7 @@ An example of this visualization can be seen [here](https://datastudio.google.co
 
 # Usage
 
-The input dataset has 2 numeric variables: x and y., and you wull need a group column as well. For example like [this](https://docs.google.com/spreadsheets/d/17zUbp3VIqSoeg_YbiAStd6O_TxZoc4uzS20inlgW9MQ/edit?usp=sharing).
+The input dataset has 2 numeric variables: x and y., and you will need a group column as well. For example like [this](https://docs.google.com/spreadsheets/d/17zUbp3VIqSoeg_YbiAStd6O_TxZoc4uzS20inlgW9MQ/edit?usp=sharing).
 
 
 ![image](https://user-images.githubusercontent.com/47331711/109520364-73c22900-7aac-11eb-91b0-e5a3819989d3.png)
