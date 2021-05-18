@@ -20,7 +20,6 @@ const styleVal = (message, styleId) => {
       ? message.style[styleId].value
       : message.style[styleId].defaultValue;
 };
-  
 
 const drawViz = message => {
   
@@ -29,6 +28,13 @@ const drawViz = message => {
   width = 460 - margin.left - margin.right,
   height = 400 - margin.top - margin.bottom;
 
+
+  if (document.querySelector("svg")) {
+    //console.log("hello");
+    let oldSvg = document.querySelector("svg");
+    oldSvg.parentNode.removeChild(oldSvg);
+  }
+  
   // append the svg object to the body of the page
   var svg = d3.select("body")
   .append("svg")
@@ -38,9 +44,9 @@ const drawViz = message => {
   .attr("transform",
         "translate(" + margin.left + "," + margin.top + ")");
 
-        var tblList = message.tables.DEFAULT;
+  var tblList = message.tables.DEFAULT;
 
-        var data = tblList.map(row => {
+  var data = tblList.map(row => {
         
                     
             return {
