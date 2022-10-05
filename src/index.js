@@ -34,6 +34,8 @@ const drawViz = message => {
     let oldSvg = document.querySelector("svg");
     oldSvg.parentNode.removeChild(oldSvg);
   }
+
+  //commemdfgdfg
   
   // append the svg object to the body of the page
   var svg = d3.select("body")
@@ -47,8 +49,7 @@ const drawViz = message => {
   var tblList = message.tables.DEFAULT;
 
   var data = tblList.map(row => {
-        
-                    
+
             return {
                
                 x: row["dimension"][0],   
