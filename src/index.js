@@ -7,7 +7,6 @@ const local = require('./localMessage.js');
 // change this to 'false' before deploying
 export const LOCAL = false;
 
-
 // parse the style value
 const styleVal = (message, styleId) => {
     if (typeof message.style[styleId].defaultValue === "object") {
